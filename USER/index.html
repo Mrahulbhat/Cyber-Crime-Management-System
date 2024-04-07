@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>National Cyber Crime Portal</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/PhotoRoom-20231020_232757.png">
+    <script src="https://kit.fontawesome.com/cec115b967.js" crossorigin="anonymous"></script>
+    <style>
+        /* Add this style for the dropdown */
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropbtn {
+            color: white;
+            padding: 14px;
+            font-size: 19px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            border-radius: 7px;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 6px 16px;
+            font-size:15px ;
+            border-radius: 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f5f3f3;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .ribbon a{
+            font-size: 21px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="ribbon">
+                <ul>
+                    <li><a href="statuscheck.php">Complaint Status</a></li>
+                    <li><a href="firid.php">FIR ID</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+                     
+            <div class="header-text">
+                
+                <h1>In  case  of <span>Fraud </span>or<br> <span> Scam</span> immediately  </h1>
+                <span id="element"></span>
+            </div>
+            <div>
+                <a class="btn-tocontact" href="#secondpg">File a Complaint</a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .error-message {
+            margin-top: 10px;
+            color: red;
+        }
+
+        .success-message {
+            margin-top: 10px;
+            color: rgb(9, 248, 9);
+            font-weight: bolder;
+        }
+    </style>
+
+    <div class="secondpg" id="secondpg">
+        <div class="dp-container">
+            <h2 style="color: rgb(235, 16, 16); font-weight: 300;">Filing a Complaint on National Cyber Crime Reporting Portal</h2><br><br>
+            <p style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">This portal is an initiative of Government of India to facilitate victims/complainants to report cyber crime complaints online. This portal caters to complaints pertaining to cyber crimes only with special focus on cyber crimes against women and children. Complaints reported on this portal are dealt by law enforcement agencies/ police based on the information available in the complaints. It is imperative to provide correct and accurate details while filing complaint for prompt action.</p>
+            <br><p style="font-size: 16px;">Please contact local police in case of an emergency or for reporting crimes other than cyber crimes. National police helpline number is 112. National women helpline number is 181 and Cyber Crime Helpline is 1930.</p>
+            <center><a class="btn-sec" href="Complaintform.php" target="_blank">File a Complaint</a><center>
+
+        </div>
+        <div class="video-c">
+            <video src="images/English tweet edited.mp4" loop="true"  muted autoplay></video>
+        </div>
+
+    </div>
+    
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Contact Nearby Police Station','Contact Cyber Cell Dept', 'Dial 1930', ' Visit cybercrime.gov.in'],
+            typeSpeed: 35,
+            loop: true
+        });
+    </script>
+
+ <!-----------------------------------------Contact------------------------------>   
+<div id="contact">
+    <div class="contact-container">
+            <div class="contact-left"><br><br>
+                <center><h1 style="font-size: 29px;" class="sub-title">Help | Developer Contact</h1></center><br><br><Br>
+                <p style="font-size: 20px;"><i style="color: #ff004f; font-size: 22px;" class="fa-regular fa-paper-plane"></i> rahulbhat5122@gmail.com
+                   <i style="color: #ff004f; font-size: 20px; margin-left: 30px;" class="fa-solid fa-phone"></i> +91 9019721662 
+                   <a style="margin-left: 63px; font-size: 34px;" class="social-icons" href="https://www.instagram.com/rxhul_bhxt/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                   <a style="margin-left: 18px; font-size: 34px;" class="social-icons" href="https://www.linkedin.com/in/m-rahul-bhat/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                   <a style="margin-left: 18px; font-size: 34px;" class="social-icons" href="https://www.facebook.com/profile.php?id=100024819263426" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                   <a style="margin-left: 18px; font-size: 34px;"class="social-icons" href="https://github.com/Mrahulbhat?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a></div></p>
+            </div><br><Br>
+        
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"> </i>  M. Rahul Bhat</p>
+    </div>
+    
+</div>
+</body>
+</html>
